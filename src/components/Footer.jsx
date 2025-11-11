@@ -1,4 +1,6 @@
 export default function Footer() {
+  const year = new Date().getFullYear();   // <-- add this
+
   return (
     <footer
       style={{
@@ -21,31 +23,17 @@ export default function Footer() {
           Charlotte.edu
         </a>
         <span aria-hidden="true">||</span>
-        <a href="https://github.com/Sogol2" target="_blank" rel="noopener noreferrer">
-          Github
-        </a>
+        <a href="https://github.com/Sogol2" target="_blank" rel="noopener noreferrer">Github</a>
         <span aria-hidden="true">||</span>
-        <a href="https://github.com/Sogol2/smaghzia.github.io" target="_blank" rel="noopener noreferrer">
-          Github.io
-        </a>
+        <a href="https://github.com/Sogol2/smaghzia.github.io" target="_blank" rel="noopener noreferrer">Github.io</a>
         <span aria-hidden="true">||</span>
-        <a href="https://www.freecodecamp.org/sogoli44" target="_blank" rel="noopener noreferrer">
-          freeCodeCamp
-        </a>
+        <a href="https://www.freecodecamp.org/sogoli44" target="_blank" rel="noopener noreferrer">freeCodeCamp</a>
         <span aria-hidden="true">||</span>
-        <a href="https://www.codecademy.com/profiles/sogoli44" target="_blank" rel="noopener noreferrer">
-          Codecademy
-        </a>
+        <a href="https://www.codecademy.com/profiles/sogoli44" target="_blank" rel="noopener noreferrer">Codecademy</a>
         <span aria-hidden="true">||</span>
-        <a href="https://www.linkedin.com/in/sogol-maghzian/" target="_blank" rel="noopener noreferrer">
-          LinkedIn
-        </a>
+        <a href="https://www.linkedin.com/in/sogol-maghzian/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <span aria-hidden="true">||</span>
-        <a
-          href="https://webpages.charlotte.edu/smaghzia/mascot/about.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://webpages.charlotte.edu/smaghzia/mascot/about.html" target="_blank" rel="noopener noreferrer">
           about.html
         </a>
       </nav>
@@ -59,9 +47,7 @@ export default function Footer() {
       </p>
 
       <p>&copy; {year} Sunny Macaw · Site by Maghzian Enterprises</p>
-      <p>
-        <em>Busy vibes. Better focus.</em>
-      </p>
+      <p><em>Busy vibes. Better focus.</em></p>
     </footer>
   );
 }
