@@ -5,6 +5,8 @@ import Header from './components/Header.jsx'
 import Introduction from './Introduction.jsx';
 import Contract from './Contract.jsx';
 import Home from './Home.jsx'
+import './styles/default.css';
+
 
 const link = ({ isActive }) => ({ textDecoration:'none', color: isActive ? '#0a5fff' : '#54606e' })
 
