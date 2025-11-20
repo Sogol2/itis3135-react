@@ -2,6 +2,11 @@
 import { Link } from 'react-router-dom'
 
 export default function Home() {
+
+  useEffect(() => {
+    document.title = "Sogol Maghzian || ITIS3135 Home";
+  }, []);
+
   return (
     <section className="home">
       <header className="home-hero">
